@@ -1,0 +1,61 @@
+@keyframes gradient-facebook {
+    0% {
+      background: radial-gradient(circle at center, rgb(61,93,182) 0%, #fff 0%, #fff 100%);
+    }
+    25% {
+      background: radial-gradient(circle at center, rgb(61,93,182) 24%, #fff 25%, #fff 100%);
+    }
+    50% {
+      background: radial-gradient(circle at center,rgb(61,93,182) 49%, #fff 50%, #fff 100%);
+    }
+    75% {
+      background: radial-gradient(circle at center, rgb(61,93,182) 74%, #fff 75%, #fff 100%);
+    }
+    100% {
+      color: #fff;
+      background: radial-gradient(circle at center, rgb(61,93,182) 99%, #fff 100%, #fff 100%);
+    }
+  }
+
+  @keyframes gradient-instagram {
+    0% {
+      background: radial-gradient(circle at center,rgb(208,61,141) 0%, #fff 0%, #fff 100%);
+    }
+    25% {
+      background: radial-gradient(circle at center,rgb(208,61,141) 24%, #fff 25%, #fff 100%);
+    }
+    50% {
+      background: radial-gradient(circle at center,rgb(208,61,141) 49%, #fff 50%, #fff 100%);
+    }
+    75% {
+      background: radial-gradient(circle at center, rgb(208,61,141) 74%, #fff 75%, #fff 100%);
+    }
+    100% {
+      color: #fff;
+      background: radial-gradient(circle at center, rgb(208,61,141) 99%, #fff 100%, #fff 100%);
+    }
+  }
+
+  .facebook:active  {
+    /* set time duration to your needs */
+    animation: gradient-facebook 100ms;
+    background: rgb(61,93,182);
+    color: #fff;
+    box-shadow: none;
+  }
+
+  .facebook:active img {
+      filter: brightness(0) invert(1);
+  }
+
+  .instagram:active {
+    /* set time duration to your needs */
+    animation: gradient-instagram 100ms;
+    background: rgb(208,61,141);
+    color: #fff;
+    box-shadow: none;
+  }
+
+  .instagram:active img {
+    filter: brightness(0) invert(1);
+}

@@ -1,0 +1,113 @@
+@import "../css/buttons.css";
+
+@font-face {
+    font-family: 'Monolith';
+    src: url("../resources/fonts/monolith-lightitalic.otf") format("opentype");
+}
+
+* {
+    font-family: Monolith, sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .social-button {
+      width: 30%;
+      height: 75px;
+      display: flex;
+      margin-bottom: 20px;
+      max-width: 500px;
+      min-width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: white;
+      font-size: 1.5em;
+      align-items: center;
+      font-weight: bolder;
+      outline: none;
+  }
+
+  .social-button div {
+      margin: 0 auto;
+      align-items: center;
+  }
+
+  .social-button img {
+      vertical-align: middle;
+      margin-right: 5px;
+  }
+
+  .social-button span {
+      vertical-align: middle;
+  }
+
+  .facebook {
+    border: 2px solid rgb(61,93,182);
+    color: rgb(61,93,182);
+  }
+
+  .instagram {
+      border: 2px solid rgb(208,61,141);
+      color: rgb(208,61,141);
+  }
+
+  .contact-card {
+      display: block;
+      width: 100%;
+      margin: auto;
+      max-width: 320px;
+      font-size: 1em;
+  }
+
+  .contact-card__name {
+      font-weight: bold;
+  }
+
+  .contact-card__founder {
+    margin: 0;
+  }
+
+  .contact-card__autonomous {
+      margin-top: 5px;
+  }
+  
+  .logo {
+      margin: auto;
+      display: block;
+      width: 100%;
+  }
+
+  .container {
+      width: 50%;
+  }
+  
+  @media only screen and (min-width: 700px) and (min-device-width: 700px) {
+      .logo {
+          width: 350px;
+      }
+
+      .contact-card {
+          font-size: 1em;
+      }
+  }
+
+  @media only screen and (max-device-width: 700px) {
+      .contact-card {
+          font-size: 2em;
+          margin-bottom: 100px;
+      }
+
+      .social-button {
+          min-width: 500px;
+          height: 200px;
+          margin-bottom: 5%;
+          font-size: 3em;
+      }
+
+      .social-button img {
+          width: 60px;
+          height: 60px;
+      }
+  }
