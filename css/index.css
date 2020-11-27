@@ -5,6 +5,12 @@
     src: url("../resources/fonts/monolith-lightitalic.otf") format("opentype");
 }
 
+/* 
+// position: relative;
+// top: 50%;
+// transform: translateY(-50%);
+*/
+
 * {
     font-family: Monolith, sans-serif;
   }
